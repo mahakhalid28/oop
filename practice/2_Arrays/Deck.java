@@ -1,9 +1,10 @@
 import java.security.SecureRandom;
 
 public class Deck {
-    Card[] deck = new Card[52];
+    private Card[] deck = new Card[52];
     private final SecureRandom randomizer = new SecureRandom();
-    int currentCard = 0;
+    public final int NUMBER_OF_CARDS = 52;
+    private int currentCard = 0;
 
     public Deck() {
         String[] faces = { "three", "four", "five", "six", "seven", "eight", "nine", "ten", "ace", "duce", "jack",
