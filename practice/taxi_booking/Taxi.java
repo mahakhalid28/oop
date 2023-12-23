@@ -26,13 +26,6 @@ public class Taxi {
         this.location = location;
     }
 
-    public double calculateFare(Location destination, Passenger p) {
-
-        double distance = Location.getDistance(destination, p.getLocation());
-        return distance * 10;
-
-    }
-
     @Override
     public String toString() {
         return "{" +

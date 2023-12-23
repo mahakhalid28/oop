@@ -23,7 +23,7 @@ public class Location {
         this.y = y;
     }
 
-    public static double getDistance(Location l1, Location l2) {
+    public double getDistance(Location l1, Location l2) {
         double diffX = Math.pow(l1.x - l2.x, 2);
         double diffY = Math.pow(l1.y - l2.y, 2);
         return Math.sqrt(diffX + diffY);
