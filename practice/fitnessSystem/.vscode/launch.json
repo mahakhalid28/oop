@@ -2,18 +2,26 @@
 	"version": "0.2.0",
 	"configurations": [
 		{
-			"vmArgs": "--module-path \"c:/Program Files/Java/javafx-sdk-17.0.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
+			"vmArgs": "--module-path \"c:/javafx-sdk-17.0.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
+			"type": "java",
+			"name": "App",
+			"request": "launch",
+			"mainClass": "App",
+			"projectName": "fitnessSystem_163d3d83"
+		},
+		{
+			"vmArgs": "--module-path \"c:/javafx-sdk-17.0.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
 			"type": "java",
 			"name": "Launch Current File",
 			"request": "launch",
 			"mainClass": "${file}"
 		},
 		{
-			"vmArgs": "--module-path \"c:/Program Files/Java/javafx-sdk-17.0.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
+			"vmArgs": "--module-path \"c:/javafx-sdk-17.0.0.1/lib\" --add-modules javafx.controls,javafx.fxml",
 			"type": "java",
-			"name": "Launch App",
+			"name": "Launch Main",
 			"request": "launch",
-			"mainClass": "App"
+			"mainClass": "Main"
 		}
 	]
 }
